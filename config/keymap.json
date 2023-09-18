@@ -77,7 +77,7 @@
       { "value": "&kp", "params": [{ "value": "BSPC", "params": [] }] },
       { "value": "&kp", "params": [{ "value": "DEL", "params": [] }] },
       { "value": "&kp", "params": [{ "value": "LALT", "params": [] }] },
-      { "value": "&kp", "params": [{ "value": "U", "params": [] }] },
+      { "value": "&kp", "params": [{ "value": "RALT", "params": [] }] },
       { "value": "&kp", "params": [{ "value": "RET", "params": [] }] },
       { "value": "&kp", "params": [{ "value": "SPACE", "params": [] }] },
       { "value": "&kp", "params": [{ "value": "UP", "params": [] }] },
