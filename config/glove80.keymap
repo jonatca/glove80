@@ -120,6 +120,42 @@
                 , <&macro_release &kp LALT>
                 ;
         };
+        adotdot_upper: adotdot_upper {
+            label = "ADOTDOT_UPPER";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LALT &kp LSHIFT>
+                , <&macro_tap &kp KP_N1 &kp KP_N3 &kp KP_N2>
+                , <&macro_release &kp LALT &kp LSHIFT>
+                ;
+        };
+        adot_upper: adot_upper {
+            label = "ADOT_UPPER";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LALT &kp LSHIFT>
+                , <&macro_tap &kp KP_N1 &kp KP_N3 &kp KP_N4>
+                , <&macro_release &kp LALT &kp LSHIFT>
+                ;
+        };
+        odotdot_upper: odotdot_upper {
+            label = "ODOTDOT_UPPER";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LALT &kp LSHIFT>
+                , <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N8>
+                , <&macro_release &kp LALT &kp LSHIFT>
+                ;
+        };
     };
 };
 
@@ -184,11 +220,21 @@
  &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &adot
  &trans  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &trans                                                  &kp EQUAL  &kp UNDER  &kp PLUS  &kp MINUS  &odotdot  &adotdot
- &trans    &trans    &trans    &trans    &trans  &trans  &kp LSHIFT  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
+ &trans    &trans    &trans    &trans    &trans  &trans  &sl 4  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans           &none   &none  &trans  &trans  &trans   &none                &trans    &trans     &trans  &trans  &trans
             >;
         };
 
+        layer_Special_characters_upper {
+            bindings = <
+ &trans    &trans    &trans    &trans    &trans                                                                        &trans    &trans     &trans  &trans  &trans
+ &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &trans
+ &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &adot_upper
+ &trans    &trans    &trans    &trans    &trans  &trans                                                  &kp EQUAL  &kp UNDER  &kp PLUS  &kp MINUS  &odotdot_upper  &adotdot_upper
+ &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
+ &trans    &trans    &trans    &trans    &trans           &none   &none  &trans  &trans  &trans   &none                &trans    &trans     &trans  &trans  &trans
+            >;
+        };
         layer_Numbers {
             bindings = <
  &trans   &trans   &trans  &trans  &trans                                                                   &trans  &trans  &trans   &trans   &trans
