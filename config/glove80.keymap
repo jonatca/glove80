@@ -88,11 +88,35 @@
             label = "ADOTDOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <10>;
+            tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp KP_N1 &kp KP_N3 &kp KP_N2>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        adot: adot {
+            label = "ADOT";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp KP_N1 &kp KP_N3 &kp KP_N4>
+                , <&macro_release &kp LALT>
+                ;
+        };
+        odotdot: odotdot {
+            label = "ODOTDOT";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N8>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -158,8 +182,8 @@
             bindings = <
  &trans    &trans    &trans    &trans    &trans                                                                        &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &trans
- &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &trans
- &trans  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &trans                                                  &kp EQUAL  &kp UNDER  &kp PLUS  &kp MINUS  &adotdot  &trans
+ &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &adot
+ &trans  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &trans                                                  &kp EQUAL  &kp UNDER  &kp PLUS  &kp MINUS  &odotdot  &adotdot
  &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans           &none   &none  &trans  &trans  &trans   &none                &trans    &trans     &trans  &trans  &trans
             >;
