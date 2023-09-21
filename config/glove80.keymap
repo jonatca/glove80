@@ -127,9 +127,9 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT &kp LSHIFT>
-                , <&macro_tap &kp KP_N1 &kp KP_N3 &kp KP_N2>
-                , <&macro_release &kp LALT &kp LSHIFT>
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N2>
+                , <&macro_release &kp LALT>
                 ;
         };
         adot_upper: adot_upper {
@@ -139,9 +139,9 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT &kp LSHIFT>
-                , <&macro_tap &kp KP_N1 &kp KP_N3 &kp KP_N4>
-                , <&macro_release &kp LALT &kp LSHIFT>
+                = <&macro_press &kp LALT>
+                , <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N3>
+                , <&macro_release &kp LALT>
                 ;
         };
         odotdot_upper: odotdot_upper {
@@ -152,7 +152,7 @@
             tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>
-                , <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N8>
+                , <&macro_tap &kp KP_N1 &kp KP_N5 &kp KP_N3>
                 , <&macro_release &kp LALT>
                 ;
         };
