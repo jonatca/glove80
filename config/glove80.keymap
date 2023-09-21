@@ -184,7 +184,7 @@
  &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &adot
  &trans  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &trans                                                  &kp EQUAL  &kp UNDER  &kp PLUS  &kp MINUS  &odotdot  &adotdot
- &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
+ &trans    &trans    &trans    &trans    &trans  &trans  &kp LSHIFT  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans           &none   &none  &trans  &trans  &trans   &none                &trans    &trans     &trans  &trans  &trans
             >;
         };
