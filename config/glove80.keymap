@@ -36,13 +36,14 @@
             tapping-term-ms = <200>;
             bindings = <&mo 1>, <&to 1>;
         };
+
         layer_switch_cstm: hold_tap_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_SWITCH";
-            #binding-cells = <0>;
+            #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
-            bindings = <&mo 3>, <&mo 4>;
+            bindings = <&mo 3 &mo 4>;
         };
     };
 };
