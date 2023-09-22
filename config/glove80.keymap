@@ -192,6 +192,23 @@
             bindings
                 = <&macro_tap &kp RGUI &kp S &kp P &kp O &kp T &kp I &kp F &kp Y &kp RET>;
         };
+        open_focus: open_focus {
+            label = "OPEN_FOCUS";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <10>;
+            bindings = <&macro_tap &kp RGUI &kp F &kp O &kp C &kp U &kp S &kp RET>;
+        }
+        open_anki: open_anki {
+            label = "OPEN_ANKI";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <10>;
+            bindings = <&macro_tap &kp RGUI &kp A &kp N &kp K &kp I &kp RET>;
+        }
+
         open_onenote: open_onenote {
             label = "OPEN_ONENOTE";
             compatible = "zmk,behavior-macro";
@@ -215,6 +232,14 @@
             wait-ms = <30>;
             tap-ms = <10>;
             bindings = <&macro_tap &kp RGUI &kp F &kp I &kp L &kp E &kp RET>;
+        };
+        open_programs: open_programs {
+            label = "OPEN_PROGRAMS";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <10>;
+            bindings = <&macro_tap &open_spotify &open_focus &open_anki &open_onenote &open_mail &open_file_explorer>;
         };
     };
 };
@@ -289,7 +314,7 @@
             bindings = <
  &trans    &trans    &trans    &trans    &trans                                                                        &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &trans
- &trans    &trans    &trans    &email    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &adot_upper
+ &trans    &trans    &trans    &email    &trans  &trans                                                     &trans     &trans    &trans     &open_programs  &trans  &adot_upper
  &trans    &adress    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &odotdot_upper  &adotdot_upper
  &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans           &none   &none  &trans  &trans  &trans   &none                &trans    &trans     &trans  &trans  &trans
