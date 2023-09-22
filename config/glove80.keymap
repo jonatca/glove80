@@ -42,7 +42,7 @@
             label = "LAYER_SWITCH";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <400>;
             bindings = <&sl>, <&sl>;
         };
     };
