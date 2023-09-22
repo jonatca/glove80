@@ -183,14 +183,38 @@
             bindings
                 = <&macro_tap &kp E &kp L &kp E &kp K &kp T &kp R &kp O &kp V &adotdot &kp G &kp E &kp N &kp N4>;
         };
-        spotify: spotify {
-            label = "SPOTIFY";
+        open_spotify: open_spotify {
+            label = "OPEN_SPOTIFY";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <10>;
             bindings
                 = <&macro_tap &kp RGUI &kp S &kp P &kp O &kp T &kp I &kp F &kp Y &kp RET>;
+        };
+        open_onenote: open_onenote {
+            label = "OPEN_ONENOTE";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <10>;
+            bindings = <&macro_tap &kp RGUI &kp O &kp N &kp E &kp N &kp O &kp T &kp E &kp RET>;
+        };
+        open_mail: open_mail {
+            label = "OPEN_MAIL";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <10>;
+            bindings = <&macro_tap &kp RGUI &kp M &kp A &kp I &kp L &kp RET>;
+        };
+        open_file_explorer: open_file_explorer {
+            label = "OPEN_FILE_EXPLORER";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <10>;
+            bindings = <&macro_tap &kp RGUI &kp F &kp I &kp L &kp E &kp RET>;
         };
     };
 };
