@@ -199,7 +199,7 @@
             wait-ms = <30>;
             tap-ms = <10>;
             bindings = <&macro_tap &kp RGUI &kp F &kp O &kp C &kp U &kp S &kp RET>;
-        }
+        };
         open_anki: open_anki {
             label = "OPEN_ANKI";
             compatible = "zmk,behavior-macro";
@@ -207,8 +207,7 @@
             wait-ms = <30>;
             tap-ms = <10>;
             bindings = <&macro_tap &kp RGUI &kp A &kp N &kp K &kp I &kp RET>;
-        }
-
+        };
         open_onenote: open_onenote {
             label = "OPEN_ONENOTE";
             compatible = "zmk,behavior-macro";
