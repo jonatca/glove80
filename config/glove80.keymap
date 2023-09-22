@@ -247,7 +247,7 @@
             bindings = <
  &trans    &trans    &trans    &trans    &trans                                                                        &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &trans
- &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &adot_upper
+ &trans    &trans    &trans    &email    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &adot_upper
  &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &odotdot_upper  &adotdot_upper
  &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans           &none   &none  &trans  &trans  &trans   &none                &trans    &trans     &trans  &trans  &trans
