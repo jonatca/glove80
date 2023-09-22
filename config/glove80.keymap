@@ -183,6 +183,15 @@
             bindings
                 = <&macro_tap &kp E &kp L &kp E &kp K &kp T &kp R &kp O &kp V &adotdot &kp G &kp E &kp N &kp N4>;
         };
+        spotify: spotify {
+            label = "SPOTIFY";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_tap &kp RGUI &kp S &kp P &kp O &kp T &kp I &kp F &kp Y &kp RET>;
+        };
     };
 };
 
