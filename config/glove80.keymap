@@ -165,6 +165,15 @@
                 , <&macro_release &kp LALT>
                 ;
         };
+        email: email {
+            label = "EMAIL";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_tap &kp J &kp O &kp N &kp A &kp T &kp H &kp A &kp N &kp DOT &kp C &kp A &kp R &kp L &kp S &kp O &kp N &kp KP_N0 &kp KP_N1 &sk LSHFT &kp N2 &kp O &kp U &kp T &kp L &kp O &kp O &kp K &kp DOT &kp C &kp O &kp M>;
+        };
     };
 };
 
