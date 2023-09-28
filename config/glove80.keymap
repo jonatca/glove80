@@ -245,14 +245,14 @@
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&macro_tap &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN>;
+            bindings = <&macro_tap &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN
         };
         G_macro: G_macro {
             label = "G_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&macro_tap &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP>;
+            bindings = <&macro_tap &kp PG_UP &kp PG_UP &kp PG_UP &kp PG_UP &kp PG_UP &kp PG_UP &kp PG_UP &kp PG_UP &kp PG_UP &kp PG_UP>;
         };
         dd_macro: dd_macro {
             label = "DD_MACRO";
