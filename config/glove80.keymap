@@ -245,72 +245,63 @@
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN>;
+            bindings = <&macro_tap &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN &kp PGDN>;
         };
         G_macro: G_macro {
             label = "G_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP>;
+            bindings = <&macro_tap &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP &kp PGUP>;
         };
         dd_macro: dd_macro {
             label = "DD_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <200>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp HOME &sk LSHFT &kp END &kp DEL>;
+            bindings = <&macro_tap &kp HOME &sk LSHFT &kp END &kp DEL>;
         };
         o_macro: o_macro {
             label = "o_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp END &kp ENTER>;
+            bindings = <&macro_tap &kp END &kp ENTER>;
         };
         O_macro: O_macro {
             label = "O_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp HOME &kp ENTER &kp UP>;
+            bindings = <&macro_tap &kp HOME &kp ENTER &kp UP>;
         };
         yy_macro: yy_macro {
             label = "YY_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp HOME &sk LSHFT &kp END &sk LCTRL &kp C>;
+            bindings = <&macro_tap &kp HOME &sk LSHFT &kp END &sk LCTRL &kp C>;
         };
         shift_v_macro: shift_v_macro {
             label = "SHIFT_V_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp HOME &sk LSHFT &kp END>;
+            bindings = <&macro_tap &kp HOME &sk LSHFT &kp END>;
         };
         shift_j_macro: shift_j_macro {
             label = "SHIFT_J_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN>;
+            bindings = <&macro_tap &kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN>;
         };
         shift_k_macro: shift_k_macro {
             label = "SHIFT_K_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp UP &kp UP &kp UP &kp UP &kp UP>;
+            bindings = <&macro_tap &kp UP &kp UP &kp UP &kp UP &kp UP>;
         };
 
     };
