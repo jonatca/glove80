@@ -407,7 +407,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                                  &yy_macro  &trans  &trans  &O_macro  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                  &yy_macro  &trans  &trans  &o_macro  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &G_macro                                                  &trans  &shift_j_macro  &shift_k_macro  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &shift_v_macro  &sl 7  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
