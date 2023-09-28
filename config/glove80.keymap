@@ -246,7 +246,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&macro_tap &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN
+            bindings = <&macro_tap &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN &kp PG_DN>;
         };
         G_macro: G_macro {
             label = "G_MACRO";
@@ -412,7 +412,6 @@
  &trans   &trans         &trans  &trans     &trans                &trans  &trans  &trans  &trans  &trans  &trans                &trans    &trans     &trans     &trans  &trans
             >;
         };
-
         layer_VIM_upper {
             bindings = <
  &trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
