@@ -418,7 +418,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                                  &yy_macro  &trans  &trans  &O_macro  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                                  &yy_macro  &trans  &trans  &OO_macro  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &G_macro                                                  &trans  &shift_j_macro  &shift_k_macro  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &shift_v_macro  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
