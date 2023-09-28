@@ -378,7 +378,7 @@
  &trans    &trans    &trans    &trans    &trans    &trans                                                     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &kp LBKT  &kp RBKT                                                    &trans     &trans    &trans     &trans  &trans  &adot
  &trans    &trans    &kp LBRC &kp RBRC &kp LPAR  &kp RPAR                                                  &kp EQUAL  &kp UNDER  &kp PLUS  &kp MINUS  &odotdot  &adotdot
- &trans    &trans    &trans    &trans    &trans  &trans  &sl 4  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
+ &trans    &trans    &trans    &trans    &trans  &trans  &mo 4  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans           &none   &none  &trans  &trans  &trans   &none                &trans    &trans     &trans  &trans  &trans
             >;
         };
@@ -409,7 +409,7 @@
  &trans   &trans         &trans  &trans     &trans        &trans                                                     &trans     &trans    &trans     &trans     &trans  &trans
  &trans   &trans  &kp RC(RIGHT)  &trans  &kp RC(Y)        &trans                                                  &kp RC(C)  &kp RC(Z)  &kp HOME     &o_macro  &kp RC(V)  &trans
  &trans  &kp END         &trans  &dd_macro     &trans        &gg_macro                                                   &kp LEFT   &kp DOWN    &kp UP  &kp RIGHT     &trans  &trans
- &trans   &trans        &kp DEL  &trans     &trans  &kp RC(LEFT)  &sl 7  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans     &trans     &trans  &trans
+ &trans   &trans        &kp DEL  &trans     &trans  &kp RC(LEFT)  &mo 7  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans     &trans     &trans  &trans
  &trans   &trans         &trans  &trans     &trans                &trans  &trans  &trans  &trans  &trans  &trans                &trans    &trans     &trans     &trans  &trans
             >;
         };
