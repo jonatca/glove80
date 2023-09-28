@@ -237,7 +237,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <1000>;
-            tap-ms = <10>;
+            tap-ms = <2000>;
             bindings = <&macro_tap &open_spotify &open_focus &open_anki &open_onenote &open_mail &open_file_explorer>;
         };
         
