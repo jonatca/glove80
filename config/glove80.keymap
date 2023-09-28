@@ -266,14 +266,14 @@
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&macro_tap &kp END &kp ENTER>;
+            bindings = <&macro_tap &kp END &kp RET>;
         };
         O_macro: O_macro {
             label = "O_MACRO";
             compatible = "zmk,behavior-macro";
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&macro_tap &kp HOME &kp ENTER &kp UP>;
+            bindings = <&macro_tap &kp HOME &kp RET &kp UP>;
         };
         yy_macro: yy_macro {
             label = "YY_MACRO";
