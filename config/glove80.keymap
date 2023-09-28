@@ -402,25 +402,17 @@
  &trans   &trans   &trans  &trans  &trans          &none  &trans  &trans  &trans  &trans  &none             &trans  &trans  &trans   &trans   &trans
             >;
         };
+       
         layer_VIM {
             bindings = <
  &trans   &trans         &trans  &trans     &trans                                                                              &trans    &trans     &trans     &trans  &trans
  &trans   &trans         &trans  &trans     &trans        &trans                                                     &trans     &trans    &trans     &trans     &trans  &trans
- &trans   &trans  &kp RC(RIGHT)  &trans  &kp RC(Y)        &trans                                                  &kp RC(C)  &kp RC(Z)  &kp HOME     &o_macro  &kp RC(V)  &trans
- &trans  &kp END         &trans  &dd_macro     &trans        &gg_macro                                                   &kp LEFT   &kp DOWN    &kp UP  &kp RIGHT     &trans  &trans
- &trans   &trans        &kp DEL  &trans     &shift_v_macro  &kp RC(LEFT)  &sl 7  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans     &trans     &trans  &trans
+ &trans   &trans  &kp RC(RIGHT)  &trans  &kp RC(Y)        &trans                                                  &kp RC(C)  &kp RC(Z)  &kp HOME     &trans  &kp RC(V)  &trans
+ &trans  &kp END         &trans  &trans     &trans        &trans                                                   &kp LEFT   &kp DOWN    &kp UP  &kp RIGHT     &trans  &trans
+ &trans   &trans        &kp DEL  &trans     &trans  &kp RC(LEFT)  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans     &trans     &trans  &trans
  &trans   &trans         &trans  &trans     &trans                &trans  &trans  &trans  &trans  &trans  &trans                &trans    &trans     &trans     &trans  &trans
             >;
         };
-        layer_VIM_upper {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                                  &yy_macro  &trans  &trans  &O_macro  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &G_macro                                                  &trans  &shift_j_macro  &shift_k_macro  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &shift_v_macro  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
+
     };
 };
