@@ -240,6 +240,7 @@
             tap-ms = <10>;
             bindings = <&macro_tap &open_spotify &open_focus &open_anki &open_onenote &open_mail &open_file_explorer>;
         };
+        /*
         gg_macro: gg_macro {
             label = "GG_MACRO";
             compatible = "zmk,behavior-macro";
@@ -311,7 +312,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings = <&macro_tap &kp UP &kp UP &kp UP &kp UP &kp UP>;
-        };
+        }; */
 
     };
 };
