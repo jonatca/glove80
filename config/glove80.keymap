@@ -331,14 +331,13 @@
         };
         layer_VIM {
             bindings = <
- &trans   &trans  &trans  &trans  &trans                                                                      &trans    &trans     &trans  &trans  &trans
- &trans   &trans  &trans  &trans  &trans  &trans                                                    &trans    &trans    &trans     &trans  &trans  &trans
- &trans   &trans  &trans  &trans  &trans  &trans                                                    &trans    &trans  &kp HOME     &trans  &trans  &trans
- &trans  &kp END  &trans  &trans  &trans  &trans                                                  &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT  &trans  &trans
- &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans     &trans  &trans  &trans
- &trans   &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans     &trans  &trans  &trans
+ &trans   &trans         &trans  &trans     &trans                                                                              &trans    &trans     &trans     &trans  &trans
+ &trans   &trans         &trans  &trans     &trans        &trans                                                     &trans     &trans    &trans     &trans     &trans  &trans
+ &trans   &trans  &kp RC(RIGHT)  &trans  &kp RC(Y)        &trans                                                  &kp RC(C)  &kp RC(Z)  &kp HOME     &trans  &kp RC(V)  &trans
+ &trans  &kp END         &trans  &trans     &trans        &trans                                                   &kp LEFT   &kp DOWN    &kp UP  &kp RIGHT     &trans  &trans
+ &trans   &trans        &kp DEL  &trans     &trans  &kp RC(LEFT)  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans     &trans     &trans  &trans
+ &trans   &trans         &trans  &trans     &trans                &trans  &trans  &trans  &trans  &trans  &trans                &trans    &trans     &trans     &trans  &trans
             >;
         };
-
     };
 };
