@@ -266,15 +266,15 @@
             bindings = <&macro_tap &kp HOME &sk LSHFT &kp END &kp DEL>;
         };
         o_macro: o_macro {
-            label = "o_MACRO";
+            label = "O_MACRO";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
             bindings = <&macro_tap &kp END &kp RET>;
-        };/*
-        O_macro: O_macro {
-            label = "O_MACRO";
+        };
+        OO_macro: OO_macro {
+            label = "OO_MACRO";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -288,7 +288,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings = <&macro_tap &kp HOME &sk LSHFT &kp END &sk LCTRL &kp C>;
-        };*/
+        };
         shift_v_macro: shift_v_macro {
             label = "SHIFT_V_MACRO";
             compatible = "zmk,behavior-macro";
