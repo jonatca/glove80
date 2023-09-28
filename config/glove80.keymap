@@ -409,7 +409,7 @@
  &trans   &trans         &trans  &trans     &trans        &trans                                                     &trans     &trans    &trans     &trans     &trans  &trans
  &trans   &trans  &kp RC(RIGHT)  &trans  &kp RC(Y)        &trans                                                  &kp RC(C)  &kp RC(Z)  &kp HOME     &o_macro  &kp RC(V)  &trans
  &trans  &kp END         &trans  &dd_macro     &trans        &gg_macro                                                   &kp LEFT   &kp DOWN    &kp UP  &kp RIGHT     &trans  &trans
- &trans   &trans        &kp DEL  &trans     &trans  &kp RC(LEFT)  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans     &trans     &trans  &trans
+ &trans   &trans        &kp DEL  &trans     &trans  &kp RC(LEFT)  &sl 7  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans     &trans     &trans  &trans
  &trans   &trans         &trans  &trans     &trans                &trans  &trans  &trans  &trans  &trans  &trans                &trans    &trans     &trans     &trans  &trans
             >;
         };
