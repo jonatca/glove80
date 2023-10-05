@@ -189,7 +189,7 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings = <&macro_tap &kp J &kp O &kp N &kp A &kp T &kp C &kp A &kp AT &kp C &kp H &kp A &kp L &kp M &kp E &kp R &kp S &kp DOT &kp S &kp E>;
+            bindings = <&macro_tap &kp J &kp O &kp N &kp A &kp T &kp C &kp A  &sk LSHFT &kp N2 &kp C &kp H &kp A &kp L &kp M &kp E &kp R &kp S &kp DOT &kp S &kp E>;
         };
         
         number_personal: number_personal {
