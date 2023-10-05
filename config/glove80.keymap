@@ -405,7 +405,7 @@
  &trans    &trans    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &email    &trans  &trans                                                     &trans     &trans    &trans     &open_programs  &trans  &adot_upper
  &trans    &adress    &trans    &trans    &trans  &trans                                                     &trans     &trans    &trans     &trans  &odotdot_upper  &adotdot_upper
- &trans    &trans    &chalmers_mail    &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans   &none     &number_personal     &trans    &trans     &trans  &trans  &trans
+ &trans    &trans    &trans    &chalmers_mail    &trans  &trans     &trans  &trans  &trans  &trans  &trans   &none     &number_personal     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans           &none   &none  &trans  &trans  &trans   &none                &trans    &trans     &trans  &trans  &trans
             >;
         };
