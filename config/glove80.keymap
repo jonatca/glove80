@@ -189,26 +189,16 @@
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp J &kp O &kp N &kp A &kp T &kp C &kp A &kp AT &kp C &kp H &kp A &kp L &kp M &kp E &kp R &kp S &kp DOT &kp S &kp E>;
+            bindings = <&macro_tap &kp J &kp O &kp N &kp A &kp T &kp C &kp A &kp AT &kp C &kp H &kp A &kp L &kp M &kp E &kp R &kp S &kp DOT &kp S &kp E>;
         };
-        mvh: mvh {
-            label = "MVH";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp M &kp E &kp D &kp SPACE &kp V &adotdot &kp N &kp L &kp I &kp G &kp SPACE &kp H &adotdot &kp L &kp S &kp N &kp I &kp N &kp G &kp ENTER &kp J &kp O &kp N &kp A &kp T &kp H &kp A &kp N &kp SPACE &kp C &kp A &kp R &kp L &kp S &kp O &kp N>;
-        };
+        
         number_personal: number_personal {
             label = "NUMBER_PERSONAL";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp N0 &kp N1 &kp N1 &kp N1 &kp N3 &kp N0 &kp HYPHEN &kp N2 &kp N8 &kp N7 &kp N3>;
+            bindings = <&macro_tap &kp N0 &kp N1 &kp N1 &kp N1 &kp N3 &kp N0 &kp HYPHEN &kp N2 &kp N8 &kp N7 &kp N3>;
         };
         open_spotify: open_spotify {
             label = "OPEN_SPOTIFY";
@@ -216,8 +206,7 @@
             #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <10>;
-            bindings
-                = <&macro_tap &kp RGUI &kp S &kp P &kp O &kp T &kp I &kp F &kp Y &kp RET>;
+            bindings = <&macro_tap &kp RGUI &kp S &kp P &kp O &kp T &kp I &kp F &kp Y &kp RET>;
         };
         open_focus: open_focus {
             label = "OPEN_FOCUS";
