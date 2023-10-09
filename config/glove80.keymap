@@ -360,9 +360,9 @@
     &none       &none    &none     &none      &none                                                                                    &none      &none     &none     &none   &none
     &none       &none    &none     &none      &none   &none                                                                    &none   &none      &none     &none     &none   &none
     &kp TAB     &kp Q    &kp W     &kp E      &kp R   &kp T                                                                    &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
-    &kp ESC     &kp A    &kp S     &lt 6 D      &lt 3 F   &kp G                                                                    &kp H   &lt 3 J      &lt 6 K     &kp L  &kp SEMI    &kp SQT
-  &kp GRAVE     &kp Z    &kp X     &kp C      &kp V   &kp B  &kp LSHFT  &kp LCTRL    &kp LSHFT  &kp RCTRL  &none   &layer_switch_cstm 5 5   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &none
- &magic 2 0  &none  &none  &none  &none           &kp BSPC    &kp DEL  &kp RGUI   &kp RALT    &mt RCTRL RET  &kp SPACE          &none   &none  &none   &none  &none
+    &kp ESC     &kp A    &kp S     &lt 6 D      &lt 3 F   &kp G                                                                    &mt RCTRL H   &lt 3 J      &lt 6 K     &kp L  &kp SEMI    &kp SQT
+  &kp GRAVE     &kp Z    &kp X     &kp C      &kp V   &kp B  &kp LSHFT  &kp LCTRL    &kp LSHFT  &kp RCTRL  &kp RCTRL  &layer_switch_cstm 5 5   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &none
+ &magic 2 0  &none  &none  &none  &none           &kp BSPC    &kp DEL  &kp RGUI   &kp RALT    &kp RET  &kp SPACE        &none   &none  &none   &none  &none
             >;
         };
 
