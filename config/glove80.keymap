@@ -281,6 +281,14 @@
             tap-ms = <10>;
             bindings = <&macro_tap &kp HOME &sk LSHFT &kp END &kp DEL>;
         };
+        dw_macro: dw_macro {
+            label = "DW_MACRO";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings = <&macro_tap &sk LCTRL &kp BSPACE>;
+        };
         o_macro: o_macro {
             label = "O_MACRO";
             compatible = "zmk,behavior-macro";
@@ -395,7 +403,7 @@
  &trans    &trans    &trans    &trans    &kp LBKT  &kp RBKT                                                    &trans     &trans    &trans     &trans  &trans  &adot
  &trans    &trans    &kp LBRC &kp RBRC &kp LPAR  &kp RPAR                                                  &kp EQUAL  &kp UNDER  &kp PLUS  &kp MINUS  &odotdot  &adotdot
  &trans    &trans    &trans    &trans    &trans  &trans  &mo 4  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
- &trans    &trans    &trans    &trans    &trans       &kp BSPC    &kp DEL  &kp RGUI   &kp RALT    &kp RET  &kp SPACE   &trans    &trans     &trans  &trans  &trans
+ &trans    &trans    &trans    &trans    &trans       &kp dw_macro    &kp DEL  &kp RGUI   &kp RALT    &kp RET  &kp SPACE   &trans    &trans     &trans  &trans  &trans
             >;
         };
 
