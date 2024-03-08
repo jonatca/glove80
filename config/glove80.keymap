@@ -97,8 +97,8 @@
             label = "ADOTDOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <30>;
+            tap-ms = <30>;
             bindings
                 = <&macro_press &kp LALT>,
                 <&macro_tap &kp N1 &kp N3 &kp N2>,
@@ -108,8 +108,8 @@
             label = "ADOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <30>;
+            tap-ms = <30>;
             bindings
                 = <&macro_press &kp LALT>,
                 <&macro_tap &kp N1 &kp N3 &kp N4>,
@@ -119,8 +119,8 @@
             label = "ODOTDOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <30>;
+            tap-ms = <30>;
             bindings
                 = <&macro_press &kp LALT>,
                 <&macro_tap &kp N1 &kp N4 &kp N8>,
@@ -130,8 +130,8 @@
             label = "ADOTDOT_UPPER";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <30>;
+            tap-ms = <30>;
             bindings
                 = <&macro_press &kp LALT>,
                 <&macro_tap &kp N1 &kp N4 &kp N2>,
@@ -141,8 +141,8 @@
             label = "ADOT_UPPER";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <30>;
+            tap-ms = <30>;
             bindings
                 = <&macro_press &kp LALT>,
                 <&macro_tap &kp N1 &kp N4 &kp N3>,
@@ -152,8 +152,8 @@
             label = "ODOTDOT_UPPER";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <10>;
+            wait-ms = <30>;
+            tap-ms = <30>;
             bindings
                 = <&macro_press &kp LALT>,
                 <&macro_tap &kp N1 &kp N5 &kp N3>,
