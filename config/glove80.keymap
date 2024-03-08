@@ -97,66 +97,66 @@
             label = "ADOTDOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
+            wait-ms = <10>;
+            tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>,
                 <&macro_tap &kp KP_N1 &kp KP_N3 &kp KP_N2>,
                 <&macro_release &kp LALT>;
         };
-        adot: adot {
             label = "ADOT";
+        adot: adot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
+            wait-ms = <10>;
+            tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>,
-                <&macro_tap &kp N1 &kp N3 &kp N4>,
+                <&macro_tap &kp KP_N1 &kp KP_N3 &kp KP_N4>,
                 <&macro_release &kp LALT>;
         };
         odotdot: odotdot {
             label = "ODOTDOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
+            wait-ms = <10>;
+            tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>,
-                <&macro_tap &kp N1 &kp N4 &kp N8>,
+                <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N8>,
                 <&macro_release &kp LALT>;
         };
         adotdot_upper: adotdot_upper {
             label = "ADOTDOT_UPPER";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
+            wait-ms = <10>;
+            tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>,
-                <&macro_tap &kp N1 &kp N4 &kp N2>,
+                <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N2>,
                 <&macro_release &kp LALT>;
         };
         adot_upper: adot_upper {
             label = "ADOT_UPPER";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
+            wait-ms = <10>;
+            tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>,
-                <&macro_tap &kp N1 &kp N4 &kp N3>,
+                <&macro_tap &kp KP_N1 &kp KP_N4 &kp KP_N3>,
                 <&macro_release &kp LALT>;
         };
         odotdot_upper: odotdot_upper {
             label = "ODOTDOT_UPPER";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
-            tap-ms = <30>;
+            wait-ms = <10>;
+            tap-ms = <10>;
             bindings
                 = <&macro_press &kp LALT>,
-                <&macro_tap &kp N1 &kp N5 &kp N3>,
+                <&macro_tap &kp KP_N1 &kp KP_N5 &kp KP_N3>,
                 <&macro_release &kp LALT>;
         };
         email: email {
