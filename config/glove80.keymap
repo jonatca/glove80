@@ -404,8 +404,8 @@
  &trans    &trans    &kp LBRC &kp RBRC &kp LPAR  &kp RPAR                                                  &kp EQUAL  &kp UNDER  &kp PLUS  &kp MINUS  &odotdot  &adotdot
  &trans    &trans    &trans    &trans    &trans  &trans  &mo 4  &trans  &trans  &trans  &trans   &none     &trans     &trans    &trans     &trans  &trans  &trans
  &trans    &trans    &trans    &trans    &trans       &dw_macro    &kp DEL  &kp RGUI   &kp RALT    &kp RET  &kp SPACE   &trans    &trans     &trans  &trans  &trans
-        };
             >;
+        };
 
         layer_Special_characters_upper {
             bindings = <
