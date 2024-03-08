@@ -133,10 +133,9 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N1 &kp N4 &kp N2>
-                , <&macro_release &kp LALT>
-                ;
+                = <&macro_press &kp LALT>,
+                <&macro_tap &kp N1 &kp N4 &kp N2>,
+                <&macro_release &kp LALT>;
         };
         adot_upper: adot_upper {
             label = "ADOT_UPPER";
@@ -145,10 +144,9 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N1 &kp N4 &kp N3>
-                , <&macro_release &kp LALT>
-                ;
+                = <&macro_press &kp LALT>,
+                <&macro_tap &kp N1 &kp N4 &kp N3>,
+                <&macro_release &kp LALT>;
         };
         odotdot_upper: odotdot_upper {
             label = "ODOTDOT_UPPER";
@@ -157,10 +155,9 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>
-                , <&macro_tap &kp N1 &kp N5 &kp N3>
-                , <&macro_release &kp LALT>
-                ;
+                = <&macro_press &kp LALT>,
+                <&macro_tap &kp N1 &kp N5 &kp N3>,
+                <&macro_release &kp LALT>;
         };
         email: email {
             label = "EMAIL";
