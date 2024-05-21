@@ -92,6 +92,7 @@
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 3>;
         };
+        
         adotdot: adotdot {
             label = "ADOTDOT";
             compatible = "zmk,behavior-macro";
@@ -99,14 +100,15 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LEFT_GUI>,      // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>,      // Release Windows key
-                <&macro_wait_ms 50>,                // Wait for the switch to take effect
-                <&macro_tap &kp SQT>,               // Press ä (SQT)
-                <&macro_press &kp LEFT_GUI>,        // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>;      // Release Windows key
+                = <&macro_press &kp LEFT_GUI>,       // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>,       // Release Windows key
+                <&none>,                             // No operation (delay)
+                <&none>,                             // No operation (delay)
+                <&macro_tap &kp SQT>,                // Press ä (SQT)
+                <&macro_press &kp LEFT_GUI>,         // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>;       // Release Windows key
         };
         adot: adot {
             label = "ADOT";
@@ -115,14 +117,15 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LEFT_GUI>,      // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>,      // Release Windows key
-                <&macro_wait_ms 50>,                // Wait for the switch to take effect
-                <&macro_tap &kp LBKT>,              // Press å (LBKT)
-                <&macro_press &kp LEFT_GUI>,        // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>;      // Release Windows key
+                = <&macro_press &kp LEFT_GUI>,       // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>,       // Release Windows key
+                <&none>,                             // No operation (delay)
+                <&none>,                             // No operation (delay)
+                <&macro_tap &kp LBKT>,               // Press å (LBKT)
+                <&macro_press &kp LEFT_GUI>,         // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>;       // Release Windows key
         };
         odotdot: odotdot {
             label = "ODOTDOT";
@@ -131,14 +134,15 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LEFT_GUI>,      // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>,      // Release Windows key
-                <&macro_wait_ms 50>,                // Wait for the switch to take effect
-                <&macro_tap &kp SEMI>,              // Press ö (SEMI)
-                <&macro_press &kp LEFT_GUI>,        // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>;      // Release Windows key
+                = <&macro_press &kp LEFT_GUI>,       // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>,       // Release Windows key
+                <&none>,                             // No operation (delay)
+                <&none>,                             // No operation (delay)
+                <&macro_tap &kp SEMI>,               // Press ö (SEMI)
+                <&macro_press &kp LEFT_GUI>,         // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>;       // Release Windows key
         };
         adotdot_upper: adotdot_upper {
             label = "ADOTDOT_UPPER";
@@ -147,15 +151,16 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LEFT_GUI>,      // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>,      // Release Windows key
-                <&macro_wait_ms 50>,                // Wait for the switch to take effect
+                = <&macro_press &kp LEFT_GUI>,       // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>,       // Release Windows key
+                <&none>,                             // No operation (delay)
+                <&none>,                             // No operation (delay)
                 <&macro_press &kp LEFT_SHIFT &kp SQT>, // Press Ä (LEFT_SHIFT + SQT)
                 <&macro_release &kp LEFT_SHIFT &kp SQT>,
-                <&macro_press &kp LEFT_GUI>,        // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>;      // Release Windows key
+                <&macro_press &kp LEFT_GUI>,         // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>;       // Release Windows key
         };
         adot_upper: adot_upper {
             label = "ADOT_UPPER";
@@ -164,15 +169,16 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LEFT_GUI>,      // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>,      // Release Windows key
-                <&macro_wait_ms 50>,                // Wait for the switch to take effect
+                = <&macro_press &kp LEFT_GUI>,       // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>,       // Release Windows key
+                <&none>,                             // No operation (delay)
+                <&none>,                             // No operation (delay)
                 <&macro_press &kp LEFT_SHIFT &kp LBKT>, // Press Å (LEFT_SHIFT + LBKT)
                 <&macro_release &kp LEFT_SHIFT &kp LBKT>,
-                <&macro_press &kp LEFT_GUI>,        // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>;      // Release Windows key
+                <&macro_press &kp LEFT_GUI>,         // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>;       // Release Windows key
         };
         odotdot_upper: odotdot_upper {
             label = "ODOTDOT_UPPER";
@@ -181,16 +187,18 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LEFT_GUI>,      // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>,      // Release Windows key
-                <&macro_wait_ms 50>,                // Wait for the switch to take effect
+                = <&macro_press &kp LEFT_GUI>,       // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>,       // Release Windows key
+                <&none>,                             // No operation (delay)
+                <&none>,                             // No operation (delay)
                 <&macro_press &kp LEFT_SHIFT &kp SEMI>, // Press Ö (LEFT_SHIFT + SEMI)
                 <&macro_release &kp LEFT_SHIFT &kp SEMI>,
-                <&macro_press &kp LEFT_GUI>,        // Press Windows key
-                <&macro_tap &kp SPACE>,             // Press Space
-                <&macro_release &kp LEFT_GUI>;      // Release Windows key
+                <&macro_press &kp LEFT_GUI>,         // Press Windows key
+                <&macro_tap &kp SPACE>,              // Press Space
+                <&macro_release &kp LEFT_GUI>;       // Release Windows key
         };
+
         email: email {
             label = "EMAIL";
             compatible = "zmk,behavior-macro";
