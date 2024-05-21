@@ -96,12 +96,11 @@
             label = "ADOTDOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;  // Increased delay before starting the macro
-            tap-ms = <10>;   // Increased delay between key taps
+            wait-ms = <50>;  // Delay before starting the macro
+            tap-ms = <10>;   // Delay between key taps
             bindings
-                = <&macro_press &kp LALT>,
-                <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N8>,
-                <&macro_release &kp LALT>;
+                = <&macro_press &kp AE>, // Assuming KP_AE is the key code for ä
+                <&macro_release &kp AE>;
         };
         adot: adot {
             label = "ADOT";
@@ -110,9 +109,8 @@
             wait-ms = <50>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>,
-                <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N9>,
-                <&macro_release &kp LALT>;
+                = <&macro_press &kp AA>, // Assuming KP_AA is the key code for å
+                <&macro_release &kp AA>;
         };
         odotdot: odotdot {
             label = "ODOTDOT";
@@ -121,9 +119,8 @@
             wait-ms = <50>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>,
-                <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N6>,
-                <&macro_release &kp LALT>;
+                = <&macro_press &kp OE>, // Assuming KP_OE is the key code for ö
+                <&macro_release &kp OE>;
         };
         adotdot_upper: adotdot_upper {
             label = "ADOTDOT_UPPER";
@@ -132,9 +129,8 @@
             wait-ms = <50>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>,
-                <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N6>,
-                <&macro_release &kp LALT>;
+                = <&macro_press &kp LEFT_SHIFT &kp AE>,
+                <&macro_release &kp LEFT_SHIFT &kp AE>;
         };
         adot_upper: adot_upper {
             label = "ADOT_UPPER";
@@ -143,9 +139,8 @@
             wait-ms = <50>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>,
-                <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N7>,
-                <&macro_release &kp LALT>;
+                = <&macro_press &kp LEFT_SHIFT &kp AA>,
+                <&macro_release &kp LEFT_SHIFT &kp AA>;
         };
         odotdot_upper: odotdot_upper {
             label = "ODOTDOT_UPPER";
@@ -154,9 +149,8 @@
             wait-ms = <50>;
             tap-ms = <10>;
             bindings
-                = <&macro_press &kp LALT>,
-                <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N4>,
-                <&macro_release &kp LALT>;
+                = <&macro_press &kp LEFT_SHIFT &kp OE>,
+                <&macro_release &kp LEFT_SHIFT &kp OE>;
         };
         email: email {
             label = "EMAIL";
