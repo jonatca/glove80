@@ -84,20 +84,11 @@
                 = <&out OUT_BLE>,
                   <&bt BT_SEL 2>;
         };
-
-        bt_3: bt_profile_macro_3 {
-            label = "BT_3";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&out OUT_BLE>,
-                  <&bt BT_SEL 3>;
-        };
         adotdot: adotdot {
             label = "ADOTDOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;  // Increased delay before starting the macro
+            wait-ms = <300>;  // Increased delay before starting the macro
             tap-ms = <50>;   // Increased delay between key taps
             bindings
                 = <&macro_press &kp LALT>,
@@ -108,7 +99,7 @@
             label = "ADOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <300>;
             tap-ms = <50>;
             bindings
                 = <&macro_press &kp LALT>,
@@ -119,7 +110,7 @@
             label = "ODOTDOT";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <300>;
             tap-ms = <50>;
             bindings
                 = <&macro_press &kp LALT>,
@@ -130,7 +121,7 @@
             label = "ADOTDOT_UPPER";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <300>;
             tap-ms = <50>;
             bindings
                 = <&macro_press &kp LALT>,
@@ -141,7 +132,7 @@
             label = "ADOT_UPPER";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <300>;
             tap-ms = <50>;
             bindings
                 = <&macro_press &kp LALT>,
@@ -152,12 +143,20 @@
             label = "ODOTDOT_UPPER";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <50>;
+            wait-ms = <300>;
             tap-ms = <50>;
             bindings
                 = <&macro_press &kp LALT>,
                 <&macro_tap &kp KP_N0 &kp KP_N2 &kp KP_N1 &kp KP_N4>,
                 <&macro_release &kp LALT>;
+        };
+        bt_3: bt_profile_macro_3 {
+            label = "BT_3";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&out OUT_BLE>,
+                  <&bt BT_SEL 3>;
         };
         email: email {
             label = "EMAIL";
